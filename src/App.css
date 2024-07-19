@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+display: flex;
+
+}
+.one{
+height: 200px;
+width: 240px;
+background-color: aqua;
+border: 3px solid blue;
+color: black;
+border-radius: 5px;
+justify-content: center;
+align-content: center;
+}
+.two{
+height: 200px;
+width: 255px;
+background-color: aqua;
+border: 3px solid blue;
+color: black;
+border-radius: 5px;
+justify-content: center;
+align-content: center;
+}
+@keyframes logo-spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+a:nth-of-type(2) .logo {
+  animation: logo-spin infinite 20s linear;
+}
+}
+
+.card {
+padding: 2em;
+}
+
+.read-the-docs {
+color: #888;
+}
